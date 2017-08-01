@@ -48,6 +48,7 @@ mw.location(2487956, '2017-04-05').then(function(response) {
 mw.location({woeid: 2487956, date: '2017/04/05'}).then(function(response) {
 	console.log(response.body);
 });
+```
 
 ## API Methods
 
