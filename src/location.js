@@ -1,10 +1,8 @@
-var got = require('got');
-
 module.exports = function(location, date) {
 	var metaweather = this;
 
 	if (typeof date === 'undefined' && typeof location === 'number') {
-		return got(metaweather.url + 'location/' + location);
+		return metaweather.p('location/' + location);
 	}
 
 	if (typeof location === 'object') {
@@ -13,6 +11,6 @@ module.exports = function(location, date) {
 	}
 
 	if (typeof location === 'number' && typeof date === 'string') {
-		return got(metaweather.url + 'location/' + location + '/' + date.replace(/\-/g, '\/'));
+		return metaweather.p('location/' + location + '/' + date.replace(/\-/g, '\/'));
 	}
-}
+};

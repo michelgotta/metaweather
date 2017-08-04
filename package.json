@@ -1,15 +1,18 @@
 {
   "name": "metaweather",
-  "version": "0.0.1",
-  "description": "Low level metaweather API",
+  "version": "0.0.2",
+  "description": "Promise based metaweather API module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michelgotta/metaweather.git"
   },
+  "keywords": [
+    "weather",
+    "api",
+    "metaweather",
+    "promise"
+  ],
   "author": "Michel Gotta <michel.gotta@4wdmedia.de> (http://github.com/michelgotta)",
   "license": "MIT",
   "bugs": {

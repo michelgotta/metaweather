@@ -59,3 +59,7 @@ mw.location({woeid: 2487956, date: '2017/04/05'}).then(function(response) {
 #### .location(woeid) // 2487956
 #### .location(woeid, dateString) // 2017/04/12 or 2017-04-12
 #### .location({woeid, dateString}) {woeid: 2487956, date: '2017/04/12'}
+
+## About Metaweather
+
+> MetaWeather is an automated weather data aggregator that takes the weather predictions from various forecasters and calculates the most likely outcome. The thinking is that the combined knowledge of the forecasters will produce a better prediction. [Read more about MetaWeather](https://www.metaweather.com/de/about/)
